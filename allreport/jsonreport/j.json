@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-04T11:40:56.260Z",
+        "before": [
+          {
+            "result": {
+              "duration": 57694404700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user to validate the valid Username and Password",
+        "description": "",
+        "id": "user-to-add-the-product-in-cart-section-in-tecovas-application;user-to-validate-the-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11384314800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the Tecovas Application through via Chromebrowser and into thier account",
+            "match": {
+              "location": "Step.to_launch_the_Tecovas_Application_through_via_Chromebrowser_and_into_thier_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33617764800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User to move the Men Section and add to cart the Hat",
+            "match": {
+              "location": "Step.user_to_move_the_Men_Section_and_add_to_cart_the_Hat()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318046600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user to verify the hat is added in Cart",
+            "match": {
+              "location": "Step.user_to_verify_the_hat_is_added_in_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@prabu"
+          }
+        ]
+      }
+    ],
+    "name": "User to add the product in Cart Section in Tecovas application",
+    "description": "",
+    "id": "user-to-add-the-product-in-cart-section-in-tecovas-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/cart.feature",
+    "tags": [
+      {
+        "name": "@prabu",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
